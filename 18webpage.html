@@ -1,0 +1,472 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link href="font-awesome-4.6.3\font-awesome-4.6.3\css/font-awesome.min.css" rel="stylesheet">
+	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+  <script src="morris.js-0.5.1\morris.js-0.5.1/morris.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.min.js"></script>
+  <script src="morris.js-0.5.1\morris.js-0.5.1\examples\lib/example.js"></script>
+  <link rel="stylesheet" href="morris.js-0.5.1\morris.js-0.5.1\examples/lib/example.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.min.css">
+  <link rel="stylesheet" href="morris.js-0.5.1\morris.js-0.5.1/morris.css">
+	
+	<style>
+		table td{
+		width:20% !important;
+		}
+		.icon1{
+			font-size:50px;background:#0059B3;color:white;padding:15px;
+		}
+		.icon2{
+			font-size:50px;background:#008C00;color:white;padding:15px;
+		}
+		.icon1:hover,.icon2:hover{
+		border-radius:50px;
+		}
+		.item img{
+		width:100% !important;
+		height:400px;
+		}
+	</style>
+	
+  </head>
+  <body>
+		<nav id="menu" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#test">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="test" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<br>
+		<br>
+		<br>
+		<div class="container">
+			<div id="slider" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#slider" data-slide-to="0" class="active"></li>
+					<li data-target="#slider" data-slide-to="1"></li>
+					<li data-target="#slider" data-slide-to="2"></li>
+					<li data-target="#slider" data-slide-to="3"></li>
+					<li data-target="#slider" data-slide-to="4"></li>
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/1.jpg" >
+						<div class="carousel-caption">
+							<h2>Web Design</h2>
+							<p>On the Insert tab, the galleries include items that are designed to coordinate </p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/2.jpg" class="">
+						<div class="carousel-caption">
+							<h2>UI Development</h2>
+							<p>with the overall look of your document. You can use these galleries to </p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/3.jpg" class="">
+						<div class="carousel-caption">
+							<h2>PHP Development</h2>
+							<p>to insert tables, headers, footers, lists, cover pages, and other document building blocks</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/4.jpg" class="">
+						<div class="carousel-caption">
+							<h2>Java Development</h2>
+							<p>When you create pictures, charts, or diagrams, they also coordinate with your current document look.</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/5.jpg" class="">
+						<div class="carousel-caption">
+							<h2>.Net Development</h2>
+							<p>You can easily change the formatting of selected text in the document text by choosing a look</p>
+						</div>
+					</div>
+					
+				</div>
+				<a href="#slider" class="left carousel-control" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+				
+				<a href="#slider" class="right carousel-control" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				
+			</div>
+		</div>
+		<div class="container">
+		<hr>
+		<div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Welcome to Modern Business
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="list-group">
+					<a href="#" class="list-group-item active">
+						<h3 class="list-group-item-heading">Home</h3>
+						<p class="list-group-item-text">You can move to first page</p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h3 class="list-group-item-heading">Services</h3>
+						<p class="list-group-item-text">You can find our Services</p>
+					</a>
+					<a href="#" class="list-group-item">About Us <span class="badge">3</span></a>
+					<a href="#" class="list-group-item">Career <span class="badge">4</span></li>
+					<a href="#" class="list-group-item">Contact Us <span class="badge">5</span></a>
+				</div>
+				<div class="thumbnail">
+					<img src="img/4.jpg">
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="img/p1.jpg">
+					<hr>
+					<h2>Ink Jet Printer</h2>
+					<div class="caption text-justify">
+					<p>	
+						On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+					</p>
+					<span class="text-primary pull-left" style="font-size:20px;margin-left:10px;">25$</span>
+					<span class="pull-right" style="font-size:18px;">
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star-empty"></span>
+					<span class="glyphicon glyphicon-star-empty"></span>
+					</span>
+					
+					</div>
+					<br>
+					<div class="caption">
+					
+					<a href="#" class="btn btn-primary" >Add To Cart</a>
+					<a href="#" class="btn btn-success pull-right" >Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="img/p2.jpg">
+					<hr>
+					<h2>Color Printer</h2>
+					<div class="caption text-justify">
+					<p>	
+						On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+					</p>
+					<span class="text-primary pull-left" style="font-size:20px;margin-left:10px;">45$</span>
+					<span class="pull-right" style="font-size:18px;">
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star-empty"></span>
+					<span class="glyphicon glyphicon-star-empty"></span>
+					</span>
+					
+					</div>
+					<br>
+					<div class="caption">
+					
+					<a href="#" class="btn btn-primary" >Add To Cart</a>
+					<a href="#" class="btn btn-success pull-right" >Read More</a>
+					</div>
+				</div>
+			
+			
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="img/p1.jpg">
+					<hr>
+					<h2>Ink Jet Printer</h2>
+					<div class="caption text-justify">
+					<p>	
+						On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+					</p>
+					<span class="text-primary pull-left" style="font-size:20px;margin-left:10px;">25$</span>
+					<span class="pull-right" style="font-size:18px;">
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star-empty"></span>
+					<span class="glyphicon glyphicon-star-empty"></span>
+					</span>
+					
+					</div>
+					<br>
+					<div class="caption">
+					
+					<a href="#" class="btn btn-primary" >Add To Cart</a>
+					<a href="#" class="btn btn-success pull-right" >Read More</a>
+					</div>
+				</div>
+			</div><div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="img/p1.jpg">
+					<hr>
+					<h2>Ink Jet Printer</h2>
+					<div class="caption text-justify">
+					<p>	
+						On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+					</p>
+					<span class="text-primary pull-left" style="font-size:20px;margin-left:10px;">25$</span>
+					<span class="pull-right" style="font-size:18px;">
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star-empty"></span>
+					<span class="glyphicon glyphicon-star-empty"></span>
+					</span>
+					
+					</div>
+					<br>
+					<div class="caption">
+					
+					<a href="#" class="btn btn-primary" >Add To Cart</a>
+					<a href="#" class="btn btn-success pull-right" >Read More</a>
+					</div>
+				</div>
+			</div><div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="img/p1.jpg">
+					<hr>
+					<h2>Ink Jet Printer</h2>
+					<div class="caption text-justify">
+					<p>	
+						On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+					</p>
+					<span class="text-primary pull-left" style="font-size:20px;margin-left:10px;">25$</span>
+					<span class="pull-right" style="font-size:18px;">
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star-empty"></span>
+					<span class="glyphicon glyphicon-star-empty"></span>
+					</span>
+					
+					</div>
+					<br>
+					<div class="caption">
+					
+					<a href="#" class="btn btn-primary" >Add To Cart</a>
+					<a href="#" class="btn btn-success pull-right" >Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel-group" id="acdn">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title"><a href="#services" data-toggle="collapse" data-parent="#acdn">Services</a></h3>
+						</div>
+						<div id="services" class="collapse in">
+							<div class="panel-body text-justify">
+								On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title"><a href="#about" data-toggle="collapse" data-parent="#acdn">About Us</a></h3>
+						</div>
+						<div id="about" class="collapse">
+							<div class="panel-body text-justify">
+								On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title"><a href="#career" data-toggle="collapse" data-parent="#acdn">Career</a></h3>
+						</div>
+						<div id="career" class="collapse">
+							<div class="panel-body text-justify">
+								On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title"><a href="#contact" data-toggle="collapse" data-parent="#acdn">Contact Us</a></h3>
+						</div>
+						<div id="contact" class="collapse">
+							<div class="panel-body text-justify">
+								On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="progress">
+					<div class="progress-bar" aria-valuenow="40" aria-valuemin="0" aria-valuemax='100' style="width:40%">
+						40%
+					</div>
+				</div>
+				<div class="progress">
+					<div class="progress-bar progress-bar-success" aria-valuenow="60" aria-valuemin="0" aria-valuemax='100' style="width:60%">
+						60%
+					</div>
+				</div>
+				<div class="progress">
+					<div class="progress-bar progress-bar-danger progress-bar-striped" aria-valuenow="60" aria-valuemin="0" aria-valuemax='100' style="width:60%">
+						60%
+					</div>
+				</div>
+				<div class="progress">
+					<div class="progress-bar progress-bar-danger progress-bar-striped active" aria-valuenow="60" aria-valuemin="0" aria-valuemax='100' style="width:60%">
+						60%
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-sm-4">
+				<div class="list-group">
+					<a href="#" class="list-group-item active">Home <span class="badge">1</span></a>
+					<a href="#" class="list-group-item">Services <span class="badge">2</span></a>
+					<a href="#" class="list-group-item">About Us <span class="badge">3</span></a>
+					<a href="#" class="list-group-item">Career <span class="badge">4</span></li>
+					<a href="#" class="list-group-item">Contact Us <span class="badge">5</span></a>
+				</div>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-sm-6">
+				<ul class="pagination">
+					<li><a href="#">Prev</a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="15pagination.html?page=2">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">..</a></li>
+					<li><a href="#">10</a></li>
+					<li><a href="#">Next</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="alert alert-danger" role="alert"> <span class="glyphicon glyphicon-remove"></span> Please Close All Windows before Submitting the Registration Form</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-7">
+				<div id="graph"></div>
+<pre id="code" class="prettyprint linenums">
+// Use Morris.Bar
+Morris.Bar({
+  element: 'graph',
+  data: [
+    {x: '2011 Q1', y: 0},
+    {x: '2011 Q2', y: 1},
+    {x: '2011 Q3', y: 2},
+    {x: '2011 Q4', y: 2},
+    {x: '2012 Q1', y: 4},
+    {x: '2012 Q2', y: 5},
+    {x: '2012 Q3', y: 3},
+    {x: '2012 Q4', y: 7},
+    {x: '2013 Q1', y: 4}
+  ],
+  xkey: 'x',
+  ykeys: ['y'],
+  labels: ['Y'],
+  barColors: function (row, series, type) {
+    if (type === 'bar') {
+      var red = Math.ceil(255 * row.y / this.ymax);
+      return 'rgb(' + red + ',250,235)';
+    }
+    else {
+      return '#000';
+    }
+  }
+});
+</pre>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-7">
+				<div id="graph"></div>
+<pre id="code" class="prettyprint linenums">
+Morris.Donut({
+  element: 'graph',
+  data: [
+    {value: 70, label: 'foo'},
+    {value: 15, label: 'bar'},
+    {value: 10, label: 'baz'},
+    {value: 5, label: 'A really really long label'}
+  ],
+  backgroundColor: '#ccc',
+  labelColor: '#060',
+  colors: [
+    '#D93600',
+    '#A3D900',
+    '#006CD9',
+    '#FF0080'
+  ],
+  formatter: function (x) { return x + "%"}
+});
+</pre>
+			</div>
+		</div>
+	</div>
+	
+  </body>
+</html>
